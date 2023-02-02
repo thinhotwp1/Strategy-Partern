@@ -8,7 +8,7 @@ import strategypatternsample.behavior.WeaponBehavior;
 
 /**
  *
- * @author Administrator
+ * @author ThinhLD
  */
 public abstract class Character implements WeaponBehavior {
 
@@ -28,10 +28,6 @@ public abstract class Character implements WeaponBehavior {
 
     public void fight() {
         System.out.println("Fighting !");
-    }
-
-    public void setWeapon(WeaponBehavior w) {
-        this.weaponBehavior = w;
     }
 
     public WeaponBehavior getWeaponBehavior() {
