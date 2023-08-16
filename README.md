@@ -14,3 +14,6 @@ Mẫu Strategy xác định một họ các thuật toán, gói gọn từng cá
 2. Thuật toán động (Dynamic Algorithms): Khi bạn có nhiều thuật toán có thể được áp dụng cho một tác vụ cụ thể, và bạn muốn cho phép đối tượng chọn thuật toán thích hợp tại thời điểm runtime. Ví dụ: thuật toán tìm kiếm, sắp xếp.
 
 3. Điều kiện thay đổi hành vi: Khi bạn cần thay đổi cách một đối tượng hoạt động dựa trên một điều kiện nào đó. Thay vì viết nhiều điều kiện if-else trong cùng một phương thức, bạn có thể sử dụng Strategy để áp dụng các hành vi khác nhau tương ứng với từng điều kiện.
+
+
+⚠️ Strategy Pattern không phải lúc nào cũng là lựa chọn tốt. Nếu số lượng các hành vi (strategies) là cố định và không thay đổi thường xuyên, hoặc không có sự thay đổi quá lớn trong hành vi của đối tượng, việc sử dụng Strategy Pattern có thể là quá phức tạp và không cần thiết.
