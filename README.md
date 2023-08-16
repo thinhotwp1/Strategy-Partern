@@ -1,5 +1,5 @@
-Strategy Partern (Mẫu chiến lược):  Chương 1: Strategy Pattern (Mẫu chiến lược)
- (Chương 1 Head First Design Patterns)
+Strategy Partern (Mẫu chiến lược):  https://toihocdesignpattern.com/chuong-1-strategy-pattern-chao-mung-den-voi-design-patterns.html
+ 
 Link github: https://github.com/thinhotwp1/Strategy-Partern.git
 
 Mẫu Strategy xác định một họ các thuật toán, gói gọn từng cái và làm cho chúng có thể hoán đổi cho nhau. Strategy cho phép thuật toán thay đổi độc lập với các client sử dụng nó.
