@@ -17,21 +17,21 @@ public class StrategyPatternSamplev2 {
         System.out.println("-----------------------------------------------");
 
         Person doctor = new Doctor();
-        ChangeClother changeSuitVest = new ChangeVestSuit();
-        doctor.setChangeClother(changeSuitVest);
+        ChangeClother changeSuitVest = new ChangeVestSuit();// Tạo một hành vi changeSuitVest
+        doctor.setChangeClother(changeSuitVest);            // Gán hành vi vào đối tượng Doctor
         doctor.getChangeClother().changeClother();
         System.out.println("-----------------------------------------------");
 
         Person teacher = new Teacher();
-        ChangeClother changePizama = new ChangePyzama();
-        teacher.setChangeClother(changePizama);
+        ChangeClother changePipzama = new ChangePyzama();// Tạo một hành vi changePipzama
+        teacher.setChangeClother(changePipzama);         // Gán hành vi vào đối tượng Teacher
         teacher.getChangeClother().changeClother();
         System.out.println("-----------------------------------------------");
 
         System.out.println("Ở ví dụ trên, một người có thể là doctor hoặc teacher có thể thay đổi " +
-                "linh hoạt cách mặc quần áo ngay trong quá trình runtime, pattern này rất có ích với các " +
-                "hành vi (hay method) có biến thể, với nguyên lý tách hành vi ra khỏi object sẽ giúp tăng tính" +
-                " linh hoạt và dễ bảo trì vì khi cần thêm một method không cần đụng tới đối tượng gốc, cũng như mở " +
+                "linh hoạt cách mặc quần áo\nngay trong quá trình runtime, pattern này rất có ích với các " +
+                "hành vi (hay method) có biến thể,\nvới nguyên lý tách hành vi ra khỏi object sẽ giúp tăng tính" +
+                " linh hoạt và dễ bảo trì, khi cần thêm một\nmethod không cần đụng tới đối tượng gốc, cũng như mở " +
                 "rộng dễ dàng mà không phải thay đổi cấu trúc của đối tượng. ");
     }
 }
